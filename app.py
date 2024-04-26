@@ -10,7 +10,7 @@ from langchain_community.vectorstores import Chroma
 from langchain_core.runnables import RunnablePassthrough
 from IPython.display import Markdown as md
 from langchain_community.document_loaders import PyPDFLoader
-st.title("🤖 RAG System 📄")
+st.title("🤖 RAG System on Leave No Context Behind Paper 📄")
 user_input = st.text_input("Enter text ....")
 
 chat_model = ChatGoogleGenerativeAI(google_api_key="AIzaSyDvU3SwP_TMwEv_pfyy9JIqE_BMm4Y5O0Q", 
